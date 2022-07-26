@@ -20,7 +20,7 @@ bot = Client('ShortLinkBot',
 async def start(bot, message):
     await message.reply(
         f"**Greetins!!💛{message.chat.first_name}!**\n\n"
-        "I am Shortest Link Bot. Send Me Any Long Link, I Will Convert It into Short Link. This bot uses your account's API key.\n\n Meet my master @master_sergio💖\n")
+        "I am Link Shortener Bot from @Cracked_Premium_Accounts. Send Me Any Long Link, I Will Convert It into Short Link.\n\n Meet my master @master_sergio💖\n")
 
 
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
